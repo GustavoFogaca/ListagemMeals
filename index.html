@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lista de Receitas</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css" />
+        <script src="js/main.js" defer></script>
+    </head>
+    <body>
+        <div class="mobile-container">
+            <header>
+                <input type="text" id="search-Receita" placeholder="Digite a Receita" />
+                <button id="search"><i class="fas fa-search"></i></button>
+            </header>
+            <div class = "nomeTela" id="nomeTela">
+              <h2>Lista de Receitas</h2>
+              <img src="https://icon-library.net//images/chef-hat-icon/chef-hat-icon-2.jpg"id="hat"/></a>
+            </div>
+            <div class="receitas" id="receitas"></div>
+        </div>
+
+        <div class="popup-container hidden" id="meal-popup">
+            <div class="popup">
+              <button id="close-popup" class="close-popup">
+                <i class="fas fa-times"></i>
+            </button>
+                <div class="info-receitas" id="info-receitas"></div>
+            </div>
+        </div>
+    </body>
+</html>
